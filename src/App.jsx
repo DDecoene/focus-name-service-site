@@ -1,9 +1,10 @@
 import React from 'react';
 import './styles/App.css';
 import twitterLogo from './assets/twitter-logo.svg';
+import zenfocuslogo from './assets/devina-SVG-1652992805.svg';
 
 // Constants
-const TWITTER_HANDLE = '_buildspace';
+const TWITTER_HANDLE = 'DDecoene';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
@@ -15,8 +16,8 @@ const App = () => {
 				<div className="header-container">
 					<header>
             <div className="left">
-              <p className="title">🐱‍👤 Ninja Name Service</p>
-              <p className="subtitle">Your immortal API on the blockchain!</p>
+              <p className="title"><img src={zenfocuslogo} width="70px" height="70px" />Focus Name Service</p>
+              <p className="subtitle">Your domainname is a zen garden.</p>
             </div>
 					</header>
 				</div>
@@ -28,7 +29,7 @@ const App = () => {
 						href={TWITTER_LINK}
 						target="_blank"
 						rel="noreferrer"
-					>{`built with @${TWITTER_HANDLE}`}</a>
+					>{`built by @${TWITTER_HANDLE}`}</a>
 				</div>
 			</div>
 		</div>
