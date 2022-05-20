@@ -35,6 +35,10 @@ header{
   color: white;
 }
 
+.title-logo{
+  vertical-align: middle;
+}
+
 .subtitle {
   font-size: 25px;
   color: white;
